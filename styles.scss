@@ -1,0 +1,130 @@
+body {
+    background: gray;
+}
+
+
+.inter-custom {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
+  .btn-danger {
+      background-color: #FA5959;
+      border: none;
+      border-radius: 7px;
+      height: 50% !important;
+
+  }
+  
+  .btn-secondary {
+      background-color: #5265E1 !important;
+  }
+
+  .features {
+    width: 100px;
+  }
+
+  .col-4 text-end {
+    border-bottom: red !important;
+  }
+
+  @media (width<=576px) {
+    .innerFeatures {
+        justify-content: center !important;
+
+    }
+    h1 {
+      font-size: smaller;
+    }
+
+    p {
+      font-size: smaller;
+    }
+  }
+
+  ul {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: space-evenly;
+  align-content: center;
+}
+
+.btn-primary {
+  background-color: #5265E1 !important;
+}
+
+#accordionFlushExample {
+  width: 60%;
+  margin-left: 20%;
+
+}
+#moreIn {
+  width: 20%;
+  margin-left: 40%;
+} 
+
+#myTabContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.home-tab-pane {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  justify-items: space-evenly;
+}
+
+#footer {
+  background-color: #5265E1 !important;
+  height: 400px;
+}
+
+#footerTitle  {
+  color: white; 
+}
+
+#footerLine {
+  color: white;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.iconsFlex {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+  @import "./node_modules/bootstrap/scss/bootstrap.scss";
